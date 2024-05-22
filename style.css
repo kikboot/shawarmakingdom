@@ -1,0 +1,96 @@
+html{
+  height: 2500px;
+}
+img {
+  text-align: right;
+}
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(241, 238, 238);
+}
+#attic {
+  text-align: center;
+  margin-top: 50px;
+}
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header__flex img {
+  margin-left: 3%;
+  margin-right: 4px;
+}
+.header__flex nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__flex nav img {
+  margin-left:23px;
+  margin-right: 101px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+
+}
+.restor {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 89px;
+}
+.restor .container > p { 
+  font-size: 22px;
+  margin-top: 56px;
+  margin-left: 1%;
+  margin-bottom: 0;
+}
+.restor__price {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin-left: 1%;
+}
+.restor__price__elem {
+  flex: 0 308px;
+  margin-top: 36px;
+}
+.restor__price__elem p:nth-child(2) {
+  font-size: 16px;
+}
+.restor__price__elem p:nth-child(3) {
+  font-size: 14px;
+  color: #4e4e4e;
+}
+.restor__price__elem p:nth-child(4) {
+  font-size: 13px;
+  color: #333333;
+}
+.restor__price__elem {
+  flex: 0 308px;
+  margin-top: 36px;
+}
+h1, h2, h3, h4, h5, h6, a{
+  color: #313131;
+  text-align: center;
+}
+
+p{
+  color: #252525;
+  text-align: center;
+  font-size: 18px;
+}
+
+.button-container {
+  text-align: center; 
+}
+
+.button {
+  display: inline-block; 
+  background-color: bisque;
+  color: antiquewhite;
+  font-size: 20px;
+  margin: 0 10px; 
+}
