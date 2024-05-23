@@ -21,6 +21,7 @@ body {
 .header__flex img {
   margin-left: 3%;
   margin-right: 4px;
+  border: 1 px solid black;
 }
 .header__flex nav {
   display: flex;
